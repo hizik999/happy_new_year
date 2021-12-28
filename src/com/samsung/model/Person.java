@@ -16,6 +16,16 @@ public class Person implements Printer {
         this.phone = phone;
     }
 
+    public Person(String firstName, String secondName, int age) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.age = age;
+    }
+
+    public Person(String firstName, String secondName) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+    }
 
     public String getFirstName() {
         return firstName;
